@@ -17,6 +17,7 @@ public class LoginPage {
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(20)); // unified wait
     }
 
+//    this is may change
     public void navigateToLoginScreen() {
         wait.until(ExpectedConditions.elementToBeClickable(By.id("com.saucelabs.mydemoapp.android:id/menuIV"))).click();
         wait.until(ExpectedConditions.elementToBeClickable(
