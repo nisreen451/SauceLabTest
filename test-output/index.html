@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-SauseLabSuite" class="navigator-link">
+              <span class="suite-name border-failed">SauseLabSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-SauseLabSuite" class="navigator-link ">
+                    <span>C:\Users\user\eclipse-workspace\SauceLabTest\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-SauseLabSuite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-SauseLabSuite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-SauseLabSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-SauseLabSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-SauseLabSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-SauseLabSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods, 3 failed,   5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-SauseLabSuite" class="hide-methods failed suite-SauseLabSuite"> (hide)</a> <!-- hide-methods failed suite-SauseLabSuite -->
+                      <a href="#" panel-name="suite-SauseLabSuite" class="show-methods failed suite-SauseLabSuite"> (show)</a> <!-- show-methods failed suite-SauseLabSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-SauseLabSuite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauseLabSuite" title="Tests.TestLogin" class="method navigator-link" hash-for-method="TC_Login_005_testInvalidUsernameAndPassword">TC_Login_005_testInvalidUsernameAndPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauseLabSuite" title="Tests.TestLogin" class="method navigator-link" hash-for-method="TC_Login_006_testInvalidUsername">TC_Login_006_testInvalidUsername</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauseLabSuite" title="Tests.TestLogin" class="method navigator-link" hash-for-method="TC_Login_007_testInvalidPassword">TC_Login_007_testInvalidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-SauseLabSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-SauseLabSuite" class="hide-methods passed suite-SauseLabSuite"> (hide)</a> <!-- hide-methods passed suite-SauseLabSuite -->
+                      <a href="#" panel-name="suite-SauseLabSuite" class="show-methods passed suite-SauseLabSuite"> (show)</a> <!-- show-methods passed suite-SauseLabSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-SauseLabSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauseLabSuite" title="Tests.TestLogin" class="method navigator-link" hash-for-method="TC_Login_001_testValidLogin">TC_Login_001_testValidLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauseLabSuite" title="Tests.TestLogin" class="method navigator-link" hash-for-method="TC_Login_002_testEmptyUsernameAndPassword">TC_Login_002_testEmptyUsernameAndPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauseLabSuite" title="Tests.TestLogin" class="method navigator-link" hash-for-method="TC_Login_003_testEmptyUsername">TC_Login_003_testEmptyUsername</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauseLabSuite" title="Tests.TestLogin" class="method navigator-link" hash-for-method="TC_Login_004_testEmptyPassword">TC_Login_004_testEmptyPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauseLabSuite" title="Tests.TestLogin" class="method navigator-link" hash-for-method="TC_Login_008_testLockedUserLogin">TC_Login_008_testLockedUserLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-SauseLabSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-SauseLabSuite" class="panel SauseLabSuite">
+          <div class="suite-SauseLabSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Tests.TestLogin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_Login_005_testInvalidUsernameAndPassword">
+                  </a> <!-- TC_Login_005_testInvalidUsernameAndPassword -->
+                  <span class="method-name">TC_Login_005_testInvalidUsernameAndPassword</span>
+                  <div class="stack-trace">java.lang.AssertionError: Login should be rejected for invalid credentials. expected [true] but found [false]
+	at Tests.TestLogin.TC_Login_005_testInvalidUsernameAndPassword(TestLogin.java:15)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_Login_006_testInvalidUsername">
+                  </a> <!-- TC_Login_006_testInvalidUsername -->
+                  <span class="method-name">TC_Login_006_testInvalidUsername</span>
+                  <div class="stack-trace">java.lang.AssertionError: Login should be rejected for invalid credentials. expected [true] but found [false]
+	at Tests.TestLogin.TC_Login_006_testInvalidUsername(TestLogin.java:51)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_Login_007_testInvalidPassword">
+                  </a> <!-- TC_Login_007_testInvalidPassword -->
+                  <span class="method-name">TC_Login_007_testInvalidPassword</span>
+                  <div class="stack-trace">java.lang.AssertionError: Login should be rejected for invalid credentials. expected [true] but found [false]
+	at Tests.TestLogin.TC_Login_007_testInvalidPassword(TestLogin.java:69)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SauseLabSuite-class-failed -->
+          <div class="suite-SauseLabSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Tests.TestLogin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_Login_001_testValidLogin">
+                  </a> <!-- TC_Login_001_testValidLogin -->
+                  <span class="method-name">TC_Login_001_testValidLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_Login_002_testEmptyUsernameAndPassword">
+                  </a> <!-- TC_Login_002_testEmptyUsernameAndPassword -->
+                  <span class="method-name">TC_Login_002_testEmptyUsernameAndPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_Login_003_testEmptyUsername">
+                  </a> <!-- TC_Login_003_testEmptyUsername -->
+                  <span class="method-name">TC_Login_003_testEmptyUsername</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_Login_004_testEmptyPassword">
+                  </a> <!-- TC_Login_004_testEmptyPassword -->
+                  <span class="method-name">TC_Login_004_testEmptyPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_Login_008_testLockedUserLogin">
+                  </a> <!-- TC_Login_008_testLockedUserLogin -->
+                  <span class="method-name">TC_Login_008_testLockedUserLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SauseLabSuite-class-passed -->
+        </div> <!-- panel SauseLabSuite -->
+        <div panel-name="test-xml-SauseLabSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\user\eclipse-workspace\SauceLabTest\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;SauseLabSuite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;LoginTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Tests.TestLogin&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- LoginTest --&gt;
+&lt;/suite&gt; &lt;!-- SauseLabSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-SauseLabSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for SauseLabSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">LoginTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-SauseLabSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for SauseLabSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-SauseLabSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for SauseLabSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_SauseLabSuite');
+function tableData_SauseLabSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TC_Login_005_testInvalidUsernameAndPassword')
+data.setCell(0, 2, 'Tests.TestLogin')
+data.setCell(0, 3, 28168);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TC_Login_007_testInvalidPassword')
+data.setCell(1, 2, 'Tests.TestLogin')
+data.setCell(1, 3, 25299);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TC_Login_006_testInvalidUsername')
+data.setCell(2, 2, 'Tests.TestLogin')
+data.setCell(2, 3, 25250);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TC_Login_001_testValidLogin')
+data.setCell(3, 2, 'Tests.TestLogin')
+data.setCell(3, 3, 7540);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TC_Login_002_testEmptyUsernameAndPassword')
+data.setCell(4, 2, 'Tests.TestLogin')
+data.setCell(4, 3, 6038);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'TC_Login_008_testLockedUserLogin')
+data.setCell(5, 2, 'Tests.TestLogin')
+data.setCell(5, 3, 5867);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'TC_Login_004_testEmptyPassword')
+data.setCell(6, 2, 'Tests.TestLogin')
+data.setCell(6, 3, 5808);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'TC_Login_003_testEmptyUsername')
+data.setCell(7, 2, 'Tests.TestLogin')
+data.setCell(7, 3, 5004);
+window.suiteTableData['SauseLabSuite']= { tableData: data, tableDiv: 'times-div-SauseLabSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-SauseLabSuite">
+              </div> <!-- times-div-SauseLabSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-SauseLabSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for SauseLabSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-SauseLabSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-SauseLabSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.TestLogin</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC_Login_005_testInvalidUsernameAndPassword</span>
+                <span class="method-start">18138 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_Login_001_testValidLogin</span>
+                <span class="method-start">46323 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_Login_008_testLockedUserLogin</span>
+                <span class="method-start">53868 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_Login_002_testEmptyUsernameAndPassword</span>
+                <span class="method-start">59741 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC_Login_006_testInvalidUsername</span>
+                <span class="method-start">65788 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_Login_004_testEmptyPassword</span>
+                <span class="method-start">91043 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC_Login_007_testInvalidPassword</span>
+                <span class="method-start">96855 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_Login_003_testEmptyUsername</span>
+                <span class="method-start">122157 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">127164 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
