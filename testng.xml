@@ -5,4 +5,9 @@
             <class name="Tests.TestLogin"/>
         </classes>
     </test>
+     <test name="ProductsTest">
+        <classes>
+            <class name="Tests.TestProduct"/>
+        </classes>
+    </test>
 </suite>
